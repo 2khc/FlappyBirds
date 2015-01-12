@@ -5,11 +5,13 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import com.kelvin.flappybirds.FlappyBirds;
 
 public class DesktopLauncher {
-	public static void main (String[] arg) {
+	public static void main(String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		config.title = "Flappy Birds";
-		config.width = 450;
-		config.height = 800;
+//		config.title = "Flappy Birds";
+//		config.width = 450;
+//		config.height = 800;
+//		config.vSyncEnabled = false;
+//		config.foregroundFPS = 30;
 		new LwjglApplication(new FlappyBirds(), config);
 	}
 }

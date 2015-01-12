@@ -11,7 +11,7 @@ public interface IBird {
 
 	void setX(float x);
 
-	void render();
+	void update();
 
 	void setY(float y);
 }
